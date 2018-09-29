@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{DEF76AF9-81DA-451C-B808-31EAD859C6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task", "Task\Task.csproj", "{DEF76AF9-81DA-451C-B808-31EAD859C6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PseudoCode", "PseudoCode", "{392B087C-6AEB-48EF-9B91-11D415BC6F0A}"
+	ProjectSection(SolutionItems) = preProject
+		PsuedoCode.cs = PsuedoCode.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Raptor", "Raptor", "{F86A7757-A679-44DC-B0B1-63400F216863}"
+	ProjectSection(SolutionItems) = preProject
+		Raptor.rap = Raptor.rap
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
